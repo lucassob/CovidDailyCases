@@ -1,8 +1,7 @@
 ﻿namespace CovidDailyCases.Domain.Models;
 
-public class CovidCases
+public class CovidCases : Entity
 {
-    public Guid Id { get; set; }
     public string Location { get; set; }
     public DateOnly Date { get; set; }
     public string Variant { get; set; }
